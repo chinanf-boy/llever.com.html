@@ -168,18 +168,18 @@ a.button:active{
 
 /********* note *************/
 .note-container{
-	display: none;
+	
 	color:rgb(31,43,51);
-	position: fixed;
 
 }
 
 .note-container h3{
 	margin: 0;
-	font-size: 2em;
+	font-size: 1.5em;
 }
-.note-container p{
+.note-container p *{
 	font-size:1em;
+	color: #ff5c00;
 }
 
 .note{
@@ -232,13 +232,13 @@ a.button:active{
 	.nav-left {
 		float:left;
 	}
+	
 	/*** note container ***/
 	.note-container{
 		width:200px;
 		top:100px;
 		right: 0;
 		display: block;
-		
 	}
 	/** footer ***/
 
@@ -256,6 +256,7 @@ a.button:active{
 		top:100px;
 		right: 0;
 		display: block;
+		position: fixed;
 		
 	}
 }
@@ -266,7 +267,7 @@ a.button:active{
 		top:100px;
 		right: 10%;
 		display: block;
-		
+		position: fixed;
 	}
 }
 
